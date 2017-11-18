@@ -1,0 +1,61 @@
+.body{
+	background-color: #727882; 
+}
+
+
+.mainWrapper{
+	display:grid;
+	grid-template-columns: 75%;
+	grid-template-rows: 180px 150px 150px 150px;
+	grid-gap: 1rem;
+
+}
+
+.boxOne, .boxTwo, .boxThree, .boxFour {
+	margin-left:28%;
+	box-shadow:20px;
+	border:2px solid black;
+}
+
+.boxOne:hover, .boxTwo:hover, .boxThree:hover, .boxFour:hover{
+	cursor:pointer;
+	opacity:.50;
+}
+
+.boxOne{
+	margin-top:25px;
+	background-image:url("oscar-keys-39379.jpg");
+	background-size: cover;
+}
+
+.boxTwo{
+	background-image:url("shoot-n-design-71270.jpg");
+	background-size: cover;
+	background-position: center;  
+}
+
+.boxThree{
+	background-image:url("Research Oceans.jpg");
+	background-size: cover;
+}
+
+.boxFour{
+	background-image:url("clem-onojeghuo-33630.jpg");
+	background-size: cover;
+	background-position: center; 
+}
+
+.labelOne{
+	display:none;
+	text-align: center;
+	margin-top:50px;
+	color:black;
+	font-size: 14pt;
+	font-weight: bold;
+	opacity:1;
+}
+
+.labelTwo{
+	text-align: center;
+	margin-top:20px;
+}
